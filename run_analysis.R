@@ -68,4 +68,4 @@ for(i in 1:subjLen) {
   }
 }
 head(result)
-write.table(result, "tidy_data_set.txt") # second dataset
+write.table(result, "tidy_data_set.txt", ,row.name=FALSE) # second dataset
