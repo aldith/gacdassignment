@@ -15,21 +15,21 @@ Data for the project https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfile
 5.	In order to make the file more readable, create new labels: the first and second columns have now subject (30 volunteers) and activity (6) as names. Join cbind() the new joinData, joinLabel e joinSubject. Create the first dataset (write.table()) called merged_data.txt.
 6.	Since I need the average of each measurement for each activity (6) and each subject (30), I put my first dataset in a loop that calculates the mean for each choice. The new dataset goes into a new file (write. table()) called tide_data_set.txt
 
-<b>Variables</b>
+<b>Variables</b> (as they appear in the R script)
 
-trainData/testData/joinData
+trainData/testData/joinData (marked as X in the different sets)
 
-trainLabel/testLabel/joinLabel
+trainLabel/testLabel/joinLabel (marked as y in the different sets)
 
-trainSubject/testSubject/joinSubject
+trainSubject/testSubject/joinSubject (marked as subject in the different sets)
 
-features
+features (from the features.txt = The features selected for the database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. )
 
-activity/activityLabel
+activity/activityLabel (from activity_labels.txt - group of names)
 
-cleanData
+cleanData (result of merging the two data sets and labeling the new dataset )
 
-subjLen/actLen/ColLen/result
+subjLen/actLen/colLen/result (extract subject and activity from the first dataset, operate a mean function and create a new dataset)
 
 <b>Results</b>
 
