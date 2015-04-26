@@ -1,8 +1,8 @@
-                                      Cleaning and getting data -  course project
+##Cleaning and getting data -  course project
 
-The purpose of this project is to to collect, work with, and clean a data set, in order to prepare tidy data that can be used for later analysis.
+The purpose of this project is to collect, work with, and clean a data set, in order to prepare tidy data that can be used for later analysis.
 
-                                                    About data
+<b>About data</b>
 
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
@@ -16,7 +16,7 @@ Data collection: Using the embedded accelerometer and gyroscope, 3-axial linear 
 
 Dataset: Randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-                                                         Steps
+<b>Analysis</b>
 
 1.	Download and unzip the data. Make sure your working directory contains the dataset.
 2.	Merges the training and the test sets to create one data set (merged_data.txt).  
@@ -24,16 +24,18 @@ Dataset: Randomly partitioned into two sets, where 70% of the volunteers was sel
 4.	Uses descriptive activity names to name the activities in the data set  
 5.	Appropriately labels the data set with descriptive variable names.  
 6.	From the data set in step 4, creates a second, independent tidy data set with the average of each  variable for each activity and each subject (tidy_data_set.txt). 
+
 The R script run_analysis.R illustrates all these steps
 
-                                                  Documents in this repo
+<b>Documents in this repo</b>
 
 READ.ME = Describes the data, the goal of the project and the steps taken to achieve the goal
 CodeBook.md = describes the variables, the data, and any transformations or work performed to clean up the data.
 run_analysis.R = include the procedure followed to clean data
 
-                                                          Source
+<b>Source</b>
 
 Data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Data obtained from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
