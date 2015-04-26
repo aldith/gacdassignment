@@ -18,11 +18,17 @@ Data for the project https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfile
 <b>Variables</b>
 
 trainData/testData/joinData
+
 trainLabel/testLabel/joinLabel
+
 trainSubject/testSubject/joinSubject
+
 features
+
 activity/activityLabel
+
 cleanData
+
 subjLen/actLen/ColLen/result
 
 <b>Results</b>
