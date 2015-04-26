@@ -30,7 +30,9 @@ The R script run_analysis.R illustrates all these steps
 <b>Documents in this repo</b>
 
 READ.ME = Describes the data, the goal of the project and the steps taken to achieve the goal
+
 CodeBook.md = describes the variables, the data, and any transformations or work performed to clean up the data.
+
 run_analysis.R = include the procedure followed to clean data
 
 <b>Source</b>
